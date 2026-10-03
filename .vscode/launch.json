@@ -1,0 +1,49 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "RSS 01 - Fresh run",
+      "type": "debugpy",
+      "request": "launch",
+      "module": "rss_surveillance_agent.demo",
+      "cwd": "${workspaceFolder}",
+      "env": { "PYTHONPATH": "${workspaceFolder}/src" },
+      "console": "internalConsole",
+      "justMyCode": true,
+      "args": ["--db", ":memory:"]
+    },
+    {
+      "name": "RSS 02 - Category rejection",
+      "type": "debugpy",
+      "request": "launch",
+      "module": "rss_surveillance_agent.demo",
+      "cwd": "${workspaceFolder}",
+      "env": { "PYTHONPATH": "${workspaceFolder}/src" },
+      "console": "internalConsole",
+      "justMyCode": true,
+      "args": ["--db", ":memory:", "--allowed-categories", "clinical"]
+    },
+    {
+      "name": "RSS 03 - Analysis timeout",
+      "type": "debugpy",
+      "request": "launch",
+      "module": "rss_surveillance_agent.demo",
+      "cwd": "${workspaceFolder}",
+      "env": { "PYTHONPATH": "${workspaceFolder}/src" },
+      "console": "internalConsole",
+      "justMyCode": true,
+      "args": ["--db", ":memory:", "--simulate-timeout"]
+    },
+    {
+      "name": "RSS 04 - Persistent deduplication",
+      "type": "debugpy",
+      "request": "launch",
+      "module": "rss_surveillance_agent.demo",
+      "cwd": "${workspaceFolder}",
+      "env": { "PYTHONPATH": "${workspaceFolder}/src" },
+      "console": "internalConsole",
+      "justMyCode": true,
+      "args": ["--db", "rss-debug.sqlite3"]
+    }
+  ]
+}

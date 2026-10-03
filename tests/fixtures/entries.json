@@ -1,0 +1,17 @@
+[
+  {
+    "id": 101,
+    "title": "Example Robotics reports quarterly earnings",
+    "content": "Revenue increased by 18 percent while operating profit improved.",
+    "url": "https://example.com/news/earnings",
+    "published_at": "2026-09-19T08:00:00Z"
+  },
+  {
+    "id": 102,
+    "title": "Warehouse opens a redesigned employee cafeteria",
+    "content": "The company introduced a seasonal lunch menu for employees.",
+    "url": "https://example.com/news/cafeteria",
+    "published_at": "2026-09-19T09:00:00Z"
+  }
+]
+

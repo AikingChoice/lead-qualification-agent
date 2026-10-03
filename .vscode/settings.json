@@ -1,0 +1,4 @@
+{
+  "python.defaultInterpreterPath": "${env:LOCALAPPDATA}/Programs/Python/Python312/python.exe",
+  "python.analysis.extraPaths": ["./src"]
+}

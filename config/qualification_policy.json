@@ -1,0 +1,12 @@
+{
+  "target_industries": ["logistics", "warehouse", "manufacturing", "robotics"],
+  "min_employee_count": 50,
+  "industry_points": 30,
+  "company_size_points": 20,
+  "relevant_product_points": 25,
+  "growth_signal_points": 15,
+  "evidence_points": 10,
+  "risk_penalty": 10,
+  "hot_threshold": 70,
+  "warm_threshold": 40
+}
